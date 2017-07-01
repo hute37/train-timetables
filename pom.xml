@@ -4,15 +4,16 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.bddinaction.chapter2</groupId>
     <artifactId>train-timetables</artifactId>
-    <version>${version.number}</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
     <name>Train Timetable Service</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <serenity.version>1.0.47</serenity.version>
-        <serenity.maven.version>1.0.47</serenity.maven.version>
+        <serenity.maven.version>1.5.0-rc.1</serenity.maven.version>
         <serenity.jbehave.version>1.0.21</serenity.jbehave.version>
         <protocol>http</protocol>
         <host>localhost</host>

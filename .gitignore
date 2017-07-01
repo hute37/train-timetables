@@ -1,0 +1,36 @@
+*.class
+*.log
+
+# mvn specific
+target/
+
+# sbt specific
+.cache
+.cache-main
+.cache-tests
+.history
+.lib/
+dist/*
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# eclipse specific
+.scala_dependencies
+.worksheet
+/bin/
+.classpath
+.project
+.settings
+
+# ensime
+.ensime
+.ensime_cache
+
+# IntelliJ
+.idea
+.idea_modules
+*.iml
+
+
